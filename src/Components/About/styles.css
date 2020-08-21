@@ -1,0 +1,76 @@
+#bg-about h1{
+
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 2rem;
+
+}
+
+#bg-about p {
+    color: #fff;
+    margin: 25px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+}
+
+#bg-about{
+
+    background-color: #6F6F6F;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+#bg-about img {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    background: #343434;
+    border-radius: 50%;
+    padding: 13px;
+}
+
+@media only screen and (min-width: 1100px) {
+
+    
+#bg-about{
+
+    max-width: 100%;
+    display: grid;
+    grid-template-rows: 350px 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "logo texto";
+}
+
+#content-img{
+
+    grid-area: logo;
+    margin-top: 30px;
+
+}
+
+
+#content-text{
+
+    grid-area: texto;
+    width: 81%;
+}
+
+#bg-about h1{
+
+    justify-content: end;
+}
+
+#bg-about p{
+
+
+    text-align: justify;
+    margin: unset;
+
+}
+
+}

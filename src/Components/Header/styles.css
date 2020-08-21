@@ -1,0 +1,23 @@
+#main-header {
+
+    color: #fff;
+    text-align: center;
+    background-color: #454545;
+
+}
+
+#main-header p{
+
+    margin-top: 1rem;;
+
+}
+
+#main-header h1{
+
+    font-size: 30px;
+}
+
+.div-header{
+
+    padding: 25px;
+}
